@@ -1,0 +1,57 @@
+# ==========================================
+# Python Byte-Compiled / Cache Files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Virtual Environments (Local setups)
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ==========================================
+# FastAPI / App Specific & Environment Secrets
+# ==========================================
+# NEVER commit your secrets/credentials to git!
+.env
+.env.*
+!.env.example
+*.log
+logs/
+
+# ==========================================
+# Databases (Local development)
+# ==========================================
+*.sqlite3
+*.db
+*.db-journal
+
+# ==========================================
+# Testing & Code Coverage
+# ==========================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# IDEs and Editors
+# ==========================================
+.vscode/
+.idea/
+*.code-workspace
+
+# ==========================================
+# OS Specific
+# ==========================================
+.DS_Store
+Thumbs.db
